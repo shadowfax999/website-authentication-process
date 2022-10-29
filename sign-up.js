@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SignUp page</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="/193457387-7104c5a0-6ff0-428c-b7f2-d308f87045f4.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="overlay">
+    <form class="form">
+      <div class="con">
+        <header class="head-form">
+          <h2>Sign Up</h2>
+
+          <p>Sign-up using a username and password</p>
+        </header>
+
+        <br />
+        <div class="field-set">
+          <div class="input-field">
+            <span class="input-item">
+              <i class="fa-solid fa-user"></i>
+            </span>
+            <input class="form-input" id="txt-input" type="text" placeholder="Username" autocomplete="off" />
+          </div>
+
+          <div class="input-field">
+            <span class="input-item">
+              <i class="fa-solid fa-key"></i>
+            </span>
+            <input class="form-input" type="password" placeholder="Password" id="pwd" name="Password"
+              autocomplete="off" />
+          </div>
+
+          <button class="login-button" style="color: white;">Sign Up</button>
+        </div>
+
+        <div class="other">
+          <button class="btn-frgtpass">Suggest Password?</button>
+
+          <button class="btn-sign-up">
+            <a href="./index.html">Log-in &nbsp;<i class="fa-solid fa-right-to-bracket"></i></a>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="https://kit.fontawesome.com/1b83f7dbef.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
